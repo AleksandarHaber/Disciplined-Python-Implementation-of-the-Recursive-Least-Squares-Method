@@ -1,7 +1,8 @@
 # Disciplined-Python-Implementation-of-the-Recursive-Least-Squares-Method
 This is a disciplined Python implementation of the Recursive Least Squares Method. 
 
-## Rationale: Recursive Least Squares (RLS) method is one of the fundamental methods for parameter estimation and control. It is used as the basis of Kalman filtering, adaptive control, recursive subspace identification method, as well as the basis of many other estimation, control, and machine learning methods. 
+## Rationale: 
+Recursive Least Squares (RLS) method is one of the fundamental methods for parameter estimation and control. It is used as the basis of Kalman filtering, adaptive control, recursive subspace identification method, as well as the basis of many other estimation, control, and machine learning methods. 
 
 We created a tutorial that explains how to easily derive the recursive least squares method. The tutorial is given here:
 https://aleksandarhaber.com/introduction-to-kalman-filter-derivation-of-the-recursive-least-squares-method-with-python-codes/
@@ -11,4 +12,9 @@ https://aleksandarhaber.com/introduction-to-kalman-filter-disciplined-python-imp
 
 In that tutorial, we also provide an example in order to numerically investigate the performance of the recursive least squares method. 
 
+## Description of the included files 
+
+"RecursiveLeastSquares.py" - this file contains the class that implements the recursive least squares method
+"driverCode.py"            - this is a file that explains how to use the recursive least squares class object defined in "RecursiveLeastSquares.py". Also this file 
+                             implements an example we constructed in https://aleksandarhaber.com/introduction-to-kalman-filter-disciplined-python-implementation-of-recursive-least-squares-method/
 

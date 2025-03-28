@@ -2,6 +2,8 @@
 
 **This is a disciplined Python implementation of the Recursive Least Squares Method.**
 
+**IMPORTANT NOTE: First, thoroughly read the license in the file called LICENSE.md!**
+
 ## Rationale: 
 Recursive Least Squares (RLS) method is one of the fundamental methods for parameter estimation and control. It is used as the basis of Kalman filtering, adaptive control, recursive subspace identification method, as well as the basis of many other estimation, control, and machine learning methods. 
 
